@@ -12,9 +12,13 @@
     <H1>Je m'appelle Clémence Coste</H1>
 </div>
 <div class="header layout">
-<p>A propos</p>
-<p>Stage</p>
-<p>Contact</p>
+    <p1>A propos</p1>
+    <p1>Stage</p1>
+    <p1>Contact</p1>
+</div>
+<div>
+<h1>Petite Introduction</h1>
+    <p class="texte"> Je me présente, je suis Clémence Coste, étudiante en Informatique à Ynov Campus.<br> Vous trouverez ici une description de mon parcours d'étude et profesionnel, également mon rapport de stage, et enfin un moyen de me contacter.<br> Bonne visite à tous !</p>
 </div>
 
 </body>
@@ -31,10 +35,14 @@
     .header{
         background-color: #FFFFFF;
     }
-    p{
+    .p1{
         color: #141414;
         margin: 20px;
     }
+    .texte {
+        color : white;
+    }
+
     .layout {
         display: flex;
         align-content: center;
