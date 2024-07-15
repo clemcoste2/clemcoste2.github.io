@@ -6,9 +6,18 @@
     display: flex;
     align-items: center;
 }
-
-.portfolio-layout-space{
+.portfolio-layout-center-justify{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.portfolio-layout-space-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.portfolio-layout-space{
+    display: flex;
     justify-content: space-between;
 }
