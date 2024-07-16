@@ -32,15 +32,9 @@
 :root {
     --bg-color        : #FFFFFF;
     --second-bg-color : #FFFF;
-<<<<<<< HEAD
     --three-bg-color  : #b4d5ff;
     --text-color      : #FFFFFF;
     --main-color      : #2a5ee7;
-=======
-    --three-bg-color  : #330055;
-    --text-color      : #141414;
-    --main-color      : #9F51FC;
->>>>>>> 3de09f621408dce0f5a7be63bef8b988a2d74157
 }
 
 /*page*/
@@ -51,18 +45,10 @@ html {
 }
 
 body {
-<<<<<<< HEAD
-background-color: #B4D5FF;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23B4D5FF' cx='50' cy='0' r='50'/%3E%3Cg fill='%23abcfff' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a3cafe' cx='50' cy='100' r='50'/%3E%3Cg fill='%239bc4fe' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2393bffd' cx='50' cy='200' r='50'/%3E%3Cg fill='%238bb9fd' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%2383b3fc' cx='50' cy='300' r='50'/%3E%3Cg fill='%237badfb' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%2374a8fb' cx='50' cy='400' r='50'/%3E%3Cg fill='%236da2fa' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23659cf9' cx='50' cy='500' r='50'/%3E%3Cg fill='%235e96f7' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%235790f6' cx='50' cy='600' r='50'/%3E%3Cg fill='%23518af5' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%234a84f3' cx='50' cy='700' r='50'/%3E%3Cg fill='%23447ef2' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%233e78f0' cx='50' cy='800' r='50'/%3E%3Cg fill='%233871ee' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23336bec' cx='50' cy='900' r='50'/%3E%3Cg fill='%232e65e9' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%232A5EE7' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: contain;
-}
-
-=======
-    background-color      : #330055;
-    background-image      : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%2338035c' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%233e0664' cx='50' cy='100' r='50'/%3E%3Cg fill='%23430a6c' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23480e74' cx='50' cy='200' r='50'/%3E%3Cg fill='%234e137c' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23531784' cx='50' cy='300' r='50'/%3E%3Cg fill='%23591b8c' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%235e1f94' cx='50' cy='400' r='50'/%3E%3Cg fill='%2363239d' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%236927a5' cx='50' cy='500' r='50'/%3E%3Cg fill='%236e2cae' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%237430b6' cx='50' cy='600' r='50'/%3E%3Cg fill='%237934bf' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%237f38c8' cx='50' cy='700' r='50'/%3E%3Cg fill='%23843dd1' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%238a41da' cx='50' cy='800' r='50'/%3E%3Cg fill='%239045e3' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23954aec' cx='50' cy='900' r='50'/%3E%3Cg fill='%239b4ef6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23A053FF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-    background-attachment : fixed;
-    background-size       : contain;
+    background-color: #B4D5FF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23B4D5FF' cx='50' cy='0' r='50'/%3E%3Cg fill='%23abcfff' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a3cafe' cx='50' cy='100' r='50'/%3E%3Cg fill='%239bc4fe' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2393bffd' cx='50' cy='200' r='50'/%3E%3Cg fill='%238bb9fd' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%2383b3fc' cx='50' cy='300' r='50'/%3E%3Cg fill='%237badfb' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%2374a8fb' cx='50' cy='400' r='50'/%3E%3Cg fill='%236da2fa' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23659cf9' cx='50' cy='500' r='50'/%3E%3Cg fill='%235e96f7' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%235790f6' cx='50' cy='600' r='50'/%3E%3Cg fill='%23518af5' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%234a84f3' cx='50' cy='700' r='50'/%3E%3Cg fill='%23447ef2' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%233e78f0' cx='50' cy='800' r='50'/%3E%3Cg fill='%233871ee' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23336bec' cx='50' cy='900' r='50'/%3E%3Cg fill='%232e65e9' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%232A5EE7' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 /*tete de page*/
@@ -70,7 +56,6 @@ background-size: contain;
 .header {
     height : 50px;
 }
->>>>>>> 3de09f621408dce0f5a7be63bef8b988a2d74157
 
 /*logo*/
 
@@ -81,12 +66,6 @@ background-size: contain;
 
 /*accueil*/
 
-<<<<<<< HEAD
-=======
-.home {
-}
-
->>>>>>> 3de09f621408dce0f5a7be63bef8b988a2d74157
 .home-content {
     position : relative;
 }
@@ -268,27 +247,6 @@ p {
     left      : -225px;
     top       : 130px;
     transform : rotate(90deg);
-<<<<<<< HEAD
-=======
-}
-
-.accueil {
-    width  : 1300px;
-    height : 552px;
-}
-.accueil-content {
-    padding : 60px;
-}
-
-.accueil-content .text {
-    font-family : 'lemonmilk';
-    font-style  : normal;
-    font-weight : 400;
-    font-size   : 50px;
-    line-height : 68px;
-    color       : white;
->>>>>>> 3de09f621408dce0f5a7be63bef8b988a2d74157
-}
 
 
 .fleche img {
@@ -300,18 +258,6 @@ p {
     margin-top  : 560px;
 }
 
-<<<<<<< HEAD
-
-=======
-.description {
-    position : absolute;
-    width    : 761px;
-    height   : 227px;
-    left     : 172px;
-    top      : 760px;
-}
->>>>>>> 3de09f621408dce0f5a7be63bef8b988a2d74157
-
 .moi2-img img {
     width       : 65px;
     height      : 74px;
@@ -320,40 +266,6 @@ p {
     transform   : rotate(15.1deg);
     margin-left : 960px;
     margin-top  : -53px;
-<<<<<<< HEAD
-=======
-}
-
-.description-content h3 {
-    position    : absolute;
-    width       : 495.13px;
-    height      : 40px;
-    font-family : 'lemonmilk';
-    font-style  : normal;
-    font-weight : 400;
-    font-size   : 35px;
-    line-height : 53px;
-    display     : flex;
-    align-items : center;
-    color       : var(--second-bg-color);
-}
-
-.description-content p {
-    position    : absolute;
-    width       : 857px;
-    height      : 132px;
-    top         : 115px;
-    font-family : 'montserrat';
-    font-style  : normal;
-    font-weight : 100;
-    font-size   : 20px;
-    line-height : 26px;
-    display     : flex;
-    align-items : center;
-    text-align  : justify;
-    color       : var(--second-bg-color);
->>>>>>> 3de09f621408dce0f5a7be63bef8b988a2d74157
-}
 
 .font {
     position   : absolute;
