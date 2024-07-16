@@ -247,7 +247,7 @@ p {
     left      : -225px;
     top       : 130px;
     transform : rotate(90deg);
-
+}
 
 .fleche img {
     width       : 65px;
@@ -266,7 +266,7 @@ p {
     transform   : rotate(15.1deg);
     margin-left : 960px;
     margin-top  : -53px;
-
+}
 .font {
     position   : absolute;
     width      : 264px;
