@@ -1,0 +1,59 @@
+/*############################################## HEADER #############################################*/
+.header {
+    width : 100%;
+    background-color: var(--bg-color);
+    position: fixed;
+        height : 50px;
+
+}
+.header .navbar a {
+    font-size   : 20px;
+    font-family : 'montserrat';
+    color       : var(--three-bg-color);
+    transition  : .3S;
+    font-weight : lighter;
+    padding     : 0 60px;
+}
+.header  .navbar a:hover,
+.header .navbar a:active {
+    color         : var(--main-color);
+}
+
+/*############################################## ACCUEIL #############################################*/
+
+.accueil {
+    height : 552px;
+}
+.accueil-content {
+    padding : 60px;
+}
+
+.accueil-content .text {
+    font-family : 'lemonmilk';
+    font-style  : normal;
+    font-weight : 400;
+    font-size   : 50px;
+    line-height : 68px;
+    color       : white;
+}
+
+/*############################################## A PROPOS #############################################*/
+
+.description .description-content .title {
+    font-family : 'lemonmilk';
+    font-style  : normal;
+    font-weight : 400;
+    font-size   : 35px;
+    line-height : 53px;
+    color       : var(--second-bg-color);
+}
+.description .description-content .text {
+    width       : 857px;
+    font-family : 'montserrat';
+    font-style  : normal;
+    font-weight : 100;
+    font-size   : 20px;
+    line-height : 26px;
+    text-align  : justify;
+    color       : var(--second-bg-color);
+}

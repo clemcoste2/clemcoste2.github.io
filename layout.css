@@ -6,6 +6,10 @@
     display: flex;
     align-items: center;
 }
+.portfolio-layout-column{
+    display: flex;
+    flex-direction: column;
+}
 .portfolio-layout-center-justify{
     display: flex;
     align-items: center;
