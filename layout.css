@@ -6,10 +6,13 @@
     display: flex;
     align-items: center;
 }
+<<<<<<< HEAD
 .portfolio-layout-column{
     display: flex;
     flex-direction: column;
 }
+=======
+>>>>>>> 3de09f621408dce0f5a7be63bef8b988a2d74157
 .portfolio-layout-center-justify{
     display: flex;
     align-items: center;
@@ -24,4 +27,8 @@
 .portfolio-layout-space{
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3de09f621408dce0f5a7be63bef8b988a2d74157
