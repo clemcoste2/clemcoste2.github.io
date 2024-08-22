@@ -1,0 +1,299 @@
+/*######################### TYPO ########################*/
+.montserrat-normal {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.antonio-normal {
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.anton-normal {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*######################### MAIN ########################*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #FFFFFF;
+    --second-bg-color: #e5dfd3;
+    --three-bg-color: #f0584d;
+    --text-color: #161616;
+    --main-color: #d5382c;
+    --shinken-color: #135fe9;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 50px;
+    background-color: #d5382c;
+}
+
+.header .navbar a {
+    font-size: 20px;
+    color: var(--text-color);
+    transition: .3S;
+    padding: 0 80px;
+}
+
+.header .navbar a:hover,
+.header .navbar a:active {
+    color: var(--second-bg-color);
+}
+
+.logo-container {
+    position: absolute;
+}
+
+.logo-container .logo-img {
+    width: 160px
+}
+
+/*######################### HOME ########################*/
+.home-container {
+    height: 300px;
+    background-color: var(--second-bg-color);
+}
+
+.home-container .title {
+    font-size: 80px;
+    color: var(--text-color);
+
+}
+
+.home-container .me {
+    width: 200px;
+}
+
+.presentation-container {
+    width: 400px;
+}
+
+.presentation-container .text {
+    color: var(--text-color);
+    line-height: 25px;
+    font-size: 14px;
+}
+
+/*######################### A PROPOS ########################*/
+
+.description-content {
+    width: 642px;
+    margin: 43px;
+}
+
+.description-content .title {
+    font-size: 80px;
+    color: var(--second-bg-color);
+}
+
+.description-content .text {
+    color: var(--text-color);
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cv-content {
+    color: var(--text-color);
+    font-weight: 100;
+}
+
+.cv-content .bloc-content {
+    width: 350px !important;
+    margin: 10px;
+}
+
+.cv-content .title {
+    font-size: 30px;
+    height: 100px;
+}
+
+.cv-content .bloc-content .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cv-content .bloc-content .text {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.button-container {
+    position: absolute;
+}
+
+.button-container .button {
+    background-color: var(--main-color);
+    border: none;
+    color: var(--second-bg-color);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    line-height: 26px;
+    width: 100px;
+    border-radius: 100%;
+    height: 100px;
+    margin: 50px 0px 0px 30px;
+}
+
+
+/*######################### CONTACT ########################*/
+.contact-container {
+    margin-top: 150px;
+}
+
+.contact-container .title {
+    font-size: 50px;
+    color: var(--text-color);
+    font-weight: 100;
+    margin: 15px;
+}
+
+.contact-container .box {
+    background-color: var(--second-bg-color);
+    width: 750px;
+    padding: 22px;
+}
+
+.contact-container .box .text {
+    color: var(--text-color);
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+/*######################### STAGE ########################*/
+
+.stage-container {
+    height: 150px;
+    justify-content: space-evenly
+}
+
+.stage-container .navbar a {
+    font-size: 20px;
+    color: var(--text-color);
+    transition: .3S;
+    padding: 0 80px;
+}
+
+.stage-container .navbar a:hover,
+.stage-container .navbar a:active {
+    color: var(--shinken-color);
+}
+
+/*######################### INTEGRATION ########################*/
+.stage-container .box  {
+margin : 30px;
+}
+.stage-container .box .title {
+    font-size: 30px;
+    color: var(--text-color);
+    font-weight: 100;
+}
+
+.stage-container .box .text {
+    color: var(--text-color);
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 25px;
+}
+.stage .button-back {
+    position: fixed;
+    margin-left: 1413px;
+    margin-top: 270px;
+}
+
+.stage .button-back .button {
+    background-color: var(--main-color);
+    border: none;
+    color: var(--second-bg-color);
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    width: 70px;
+    border-radius: 100%;
+    height: 70px;
+}
+/*######################### SHINKEN ########################*/
+
+.shinken .button-back {
+    position: fixed;
+    margin-left: 1413px;
+    margin-top: 270px;
+}
+
+.shinken .button-back .button {
+    background-color: var(--shinken-color);
+    border: none;
+    color: var(--second-bg-color);
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    width: 70px;
+    border-radius: 100%;
+    height: 70px;
+}
+.shinken .header {
+    height: 50px;
+    background-color: var(--shinken-color);
+}
+
+/*######################### TRAVAUX ########################*/
+.work-container {
+    margin: 50px;
+}
+
+.work-container .workbox {
+    width: 225px;
+    height: 370px;
+    background: var(--second-bg-color);
+}
+
+.work-container .workbox .title {
+    font-size: 20px;
+    color: var(--three-bg-color);
+    margin: 10px;
+}
+
+.work-container .workbox .text {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--text-color);
+    margin: 10px;
+
+}
+
+.work .work-img {
+    width: 200px !important;
+}
+
+.work .title {
+    font-size: 20px;
+    color: var(--three-bg-color);
+}

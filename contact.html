@@ -26,27 +26,33 @@
             <a href="apropos.html">A propos</a>
             <a href="mestravaux.html">Mes travaux</a>
             <a href="stage.html">Stage</a>
-            <a href="contact.hmtl">Contact</a>
+            <a href="contact.html">Contact</a>
         </div>
     </div>
-    <div class="home-container antonio-normal layout-center-justify">
-        <span class="title antonio-normal">Bienvenue</span>
-    </div>
-    <div class="layout-center-justify">
-        <div class="description-content layout-column layout-center">
-            <span class="text montserrat-normal">
-                Enchantée, je m'appelle Clémence Coste. Avant de vous laisser découvrir
-            mon site, voici une petite introduction.<br>
+    <div class="contact-container layout-evenly">
+        <span class="title antonio-normal">Contactez-moi<br /></span>
+    <div class="box">
+        <form action="#" method="post">
+            <div class="layout-column montserrat-normal">
+                <label class="text" for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
 
-            Actuellement étudiante en informatique à Ynov Campus Bordeaux, j’ai décidé de créer ce portfolio de A à Z.
-            Mon objectif est de vous présenter mes compétences, mais aussi de vous donner un aperçu de ma personnalité à
-            travers le design de ce site.<br>
+                <label class="text" for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-            Vous y trouverez plusieurs sections : une présentation de moi-même, de l’entreprise où j’ai réalisé mon
-            stage, ainsi que le déroulement de ce dernier. Pour me contacter, rendez-vous dans l'onglet "Contact".<br>
-            </span>
-        </div>
+            </div>
+            <div class="layout-column montserrat-normal">
+                <label class="text" for="subject">Sujet:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label class="text" for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <input class="anton-normal" type="submit" value="Envoyer">
+            </div>
+
+        </form>
     </div>
+    </div>
+    </form>
 </body>
-
-</html>
